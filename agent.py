@@ -5,7 +5,7 @@ import base64
 from cryptography.fernet import Fernet
 
 C2_URL = "http://localhost:5000/dns-query"
-KEY = b'6c-vH-wE6Xm2K6R9qV6X4pZaBcDEfGhIjKlMnOpQrSt='
+KEY = "Use the relevant key"
 fernet = Fernet(KEY)
 
 NO_PROXY = {"http": None, "https": None}
