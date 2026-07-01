@@ -4,7 +4,7 @@ import base64
 
 app = Flask(__name__)
 
-KEY = b'6c-vH-wE6Xm2K6R9qV6X4pZaBcDEfGhIjKlMnOpQrSt='
+KEY = "Use the enc.  key"
 fernet = Fernet(KEY)
 
 current_command = "whoami"
